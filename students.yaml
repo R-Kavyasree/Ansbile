@@ -1,3 +1,6 @@
 - name: ping the server
-  hosts: #target server
-  tasks: #
+  hosts: 172.31.21.188 #target server
+  tasks: #tasks = module = collections
+- name: Ping the server
+  ping:
+  
